@@ -1,0 +1,25 @@
+{
+  "name": "my-react-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: notest specified\\\" && exit 1\"",
+    "build": "vite build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/naijamesz/my-react-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.24",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.10"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
